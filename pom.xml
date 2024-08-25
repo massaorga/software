@@ -3,7 +3,12 @@
   <groupId>project</groupId>
   <artifactId>sweet-m-sys</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
+
+ <properties>
+  <sonar.organization>massaorga</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -42,10 +47,10 @@
     <version>3.3.1</version>
 </dependency>
 
-<properties>
-  <sonar.organization>massaorga</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+
+
+</dependencies>
+
 
 
 
