@@ -42,7 +42,10 @@
     <version>3.3.1</version>
 </dependency>
 
-
+<properties>
+  <sonar.organization>massaorga</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
 
 </dependencies>
